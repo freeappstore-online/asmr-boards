@@ -1,0 +1,9 @@
+{
+  "name": "ASMR Boards",
+  "short_name": "ASMR Boards",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fce4ec",
+  "theme_color": "#e91e8c",
+  "orientation": "any"
+}

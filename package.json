@@ -1,0 +1,14 @@
+{
+  "name": "asmr-boards",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @asmr-boards/web dev",
+    "build": "pnpm --filter @asmr-boards/web build",
+    "preview": "pnpm --filter @asmr-boards/web preview",
+    "typecheck": "pnpm --filter @asmr-boards/web exec tsc -b",
+    "test": "pnpm --filter @asmr-boards/web test"
+  }
+}
