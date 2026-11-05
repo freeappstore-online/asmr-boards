@@ -205,7 +205,7 @@ function ItemButton({
   const btnRef = useRef<HTMLButtonElement>(null);
 
   const handleInteract = useCallback(
-    (e: React.MouseEvent | React.TouchEvent) => {
+    () => {
       if (!muted) playSound(item.sound);
       setPressed(true);
       setRipple(true);
