@@ -226,8 +226,7 @@ function ItemButton({
   return (
     <button
       ref={btnRef}
-      onMouseDown={handleInteract}
-      onTouchStart={handleInteract}
+      onPointerDown={handleInteract}
       className="relative flex flex-col items-center justify-center gap-1 select-none"
       style={{
         width: sizeMap[item.size],
